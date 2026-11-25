@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Guru Terhebat Kami ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #faf7f2;
+    color: #39352f;
+    overflow-x: hidden;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    background:
+      radial-gradient(circle at top, #f4e7d6, transparent 60%),
+      #faf7f2;
+}
+
+.content {
+    max-width: 750px;
+    animation: fadeUp 1.5s ease;
+}
+
+.small-title {
+    color: #aa825b;
+    letter-spacing: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(42px, 8vw, 75px);
+    line-height: 1.2;
+    font-weight: 500;
+    color: #493a2d;
+}
+
+h1 span {
+    color: #b58b60;
+    font-style: italic;
+}
+
+.line {
+    width: 65px;
+    height: 2px;
+    background: #b58b60;
+    margin: 30px auto;
+}
+
+.hero p {
+    font-size: 14px;
+    line-height: 2;
+    color: #777067;
+    max-width: 550px;
+    margin: auto;
+}
+
+button {
+    margin-top: 35px;
+    border: 1px solid #a7835c;
+    background: #a7835c;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background: transparent;
+    color: #a7835c;
+    transform: translateY(-3px);
+}
+
+.scroll {
+    margin-top: 70px;
+    color: #a58d72;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+section {
+    padding: 100px 22px;
+}
+
+.message {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(30px, 5vw, 43px);
+    color: #493a2d;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.message p {
+    font-size: 14px;
+    line-height: 2.2;
+    color: #756e65;
+    margin-bottom: 18px;
+}
+
+.quote {
+    background: #f0e8dc;
+    text-align: center;
+    padding: 90px 25px;
+}
+
+.quote h2 {
+    max-width: 750px;
+    margin: auto;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.quote span {
+    display: block;
+    margin-top: 25px;
+    color: #a7835c;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.thanks {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.thanks .heart {
+    color: #bd816e;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.thanks p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 2;
+    color: #756e65;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    background: #493a2d;
+    color: #e8d9c6;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#surprise {
+    display: none;
+    margin: 35px auto 0;
+    max-width: 550px;
+    padding: 25px;
+    background: #f0e8dc;
+    border-radius: 5px;
+    color: #65513e;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:600px) {
+    section {
+        padding: 75px 22px;
+    }
+
+    .scroll {
+        margin-top: 50px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="content">
+        <div class="small-title">
+            Sebuah Ungkapan Dari Kami
+        </div>
+
+        <h1>
+            Untuk <span>Guru</span><br>
+            Terhebat Kami.
+        </h1>
+
+        <div class="line"></div>
+
+        <p>
+            Ada banyak hal yang mungkin belum sempat kami
+            ucapkan. Ada banyak rasa terima kasih yang
+            tak mampu kami sampaikan dengan kata-kata.
+            Halaman ini kami persembahkan untuk Bapak
+            dan Ibu Guru tercinta.
+        </p>
+
+        <button onclick="document.getElementById('pesan').scrollIntoView()">
+            Baca Pesan Kami ↓
+        </button>
+
+        <div class="scroll">
+            SCROLL UNTUK MELANJUTKAN
+        </div>
+    </div>
+</div>
+
+<section id="pesan">
+    <div class="message">
+        <div class="small-title">Dari Hati Kami</div>
+
+        <h2>Terima Kasih, Bapak & Ibu Guru</h2>
+
+        <div class="line"></div>
+
+        <p>
+            Untuk setiap pagi yang Bapak dan Ibu korbankan,
+            untuk setiap pelajaran yang dengan sabar
+            diajarkan, dan untuk setiap nasihat yang
+            mungkin dahulu sering kami abaikan.
+        </p>
+
+        <p>
+            Kami sadar, menjadi seorang guru bukanlah
+            pekerjaan yang mudah. Di balik setiap senyum
+            yang Bapak dan Ibu tunjukkan, ada kesabaran,
+            perjuangan, dan pengorbanan yang mungkin
+            tidak pernah kami ketahui.
+        </p>
+
+        <p>
+            Bapak dan Ibu bukan hanya mengajarkan kami
+            tentang pelajaran di dalam kelas, tetapi juga
+            mengajarkan arti kehidupan, kedisiplinan,
+            tanggung jawab, dan bagaimana menjadi manusia
+            yang lebih baik.
+        </p>
+
+        <p>
+            Mungkin suatu hari nanti kami akan lupa
+            beberapa rumus, teori, atau materi yang pernah
+            diajarkan. Namun, kami tidak akan pernah lupa
+            orang-orang yang telah membantu kami tumbuh
+            dan menemukan jalan masa depan.
+        </p>
+    </div>
+</section>
+
+<div class="quote">
+    <h2>
+        "Guru mungkin tidak selalu melihat hasil
+        dari apa yang mereka tanamkan, tetapi
+        setiap ilmu dan kebaikan akan terus
+        tumbuh dalam kehidupan murid-muridnya."
+    </h2>
+
+    <span>— SEBUAH PENGHARGAAN UNTUK GURU —</span>
+</div>
+
+<section class="thanks">
+    <div class="heart">♥</div>
+
+    <div class="small-title">Satu Pesan Terakhir</div>
+
+    <h2>Untuk Semua Guru Kami</h2>
+
+    <p>
+        Maaf jika selama ini ada sikap kami yang
+        mengecewakan, perkataan yang menyakiti,
+        atau tugas yang tidak selalu kami kerjakan
+        dengan baik.
+    </p>
+
+    <p style="margin-top:20px">
+        Terima kasih karena tidak pernah lelah
+        membimbing kami. Semoga Bapak dan Ibu Guru
+        selalu diberikan kesehatan, kebahagiaan,
+        kesabaran, dan keberkahan dalam setiap langkah.
+    </p>
+
+    <button onclick="showMessage()">
+        Klik Untuk Pesan Spesial ❤️
+    </button>
+
+    <div id="surprise">
+        Bapak dan Ibu Guru, mungkin kami bukan
+        murid yang sempurna. Namun, kami akan selalu
+        membawa ilmu, nasihat, dan kebaikan yang
+        telah kalian berikan.
+
+        <br><br>
+
+        Terima kasih telah menjadi bagian dari
+        perjalanan hidup kami.
+
+        <br><br>
+
+        Kalian akan selalu menjadi guru yang
+        kami banggakan. ❤️
+    </div>
+</section>
+
+<footer>
+    DENGAN PENUH RASA HORMAT DAN TERIMA KASIH
+    <br><br>
+    Dibuat dengan ❤️ untuk seluruh Bapak dan Ibu Guru SMK
+</footer>
+
+<script>
+function showMessage() {
+    const surprise = document.getElementById('surprise');
+
+    surprise.style.display = 'block';
+
+    surprise.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+    });
+}
+</script>
+
+</body>
+</html>
